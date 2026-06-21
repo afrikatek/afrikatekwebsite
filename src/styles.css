@@ -54,8 +54,8 @@ p{margin:0;text-wrap:pretty;}
 .mono-label{font-family:var(--mono);font-size:12px;letter-spacing:.06em;color:var(--graph3);text-transform:uppercase;}
 
 /* buttons */
-.btn{position:relative;display:inline-flex;align-items:center;gap:9px;font-family:var(--ff);font-weight:600;font-size:15.5px;letter-spacing:.02em;
-  padding:12px 22px;border-radius:7px;text-decoration:none;border:1.5px solid transparent;cursor:pointer;
+.btn{position:relative;display:inline-flex;align-items:center;gap:9px;font-family:var(--ff);font-weight:700;font-size:15.5px;letter-spacing:.01em;
+  padding:13px 26px;border-radius:999px;text-decoration:none;border:1.5px solid transparent;cursor:pointer;
   transition:transform .25s var(--ease-out), background .2s, color .2s, border-color .2s, box-shadow .25s;}
 .btn .arrow{transition:transform .3s var(--ease-out);}
 .btn:hover .arrow{transform:translateX(4px);}
@@ -68,7 +68,7 @@ p{margin:0;text-wrap:pretty;}
 .btn-light:hover{background:#fff;color:var(--ink);transform:translateY(-2px);}
 .btn-gold{background:var(--gold);color:var(--ink);font-weight:700;}
 .btn-gold:hover{background:var(--gold-400);transform:translateY(-2px);box-shadow:0 14px 30px -12px rgba(224,162,60,.6);}
-.btn-lg{padding:15px 28px;font-size:16.5px;}
+.btn-lg{padding:16px 32px;font-size:16.5px;}
 
 /* magnetic wrapper */
 .mag{display:inline-block;will-change:transform;}
